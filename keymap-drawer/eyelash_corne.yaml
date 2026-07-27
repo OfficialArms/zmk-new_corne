@@ -60,10 +60,10 @@ layers:
   - $$mdi:mouse-left-click-outline$$
   - {t: '7', s: '&'}
   - {t: '8', s: '*'}
-  - {t: '9', s: (}
-  - $$mdi:skip-next$$
-  - $$mdi:volume-high$$
+  - {t: '9', h: '[', s: (}
   - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:apple-keyboard-caps$$
   - F6
   - F7
   - F8
@@ -76,8 +76,8 @@ layers:
   - '4'
   - {t: '5', s: '%'}
   - '6'
-  - PLAY PAUSE
-  - $$mdi:volume-off$$
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '`', s: '~'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -90,21 +90,21 @@ layers:
   - '1'
   - '2'
   - '3'
-  - $$mdi:skip-previous$$
-  - VOLUME DOWN
+  - {t: \, s: '|'}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: '0', s: )}
+  - {t: '0', h: ']', s: )}
   - $$mdi:backspace-reverse-outline$$
   SYMBOL:
   - $$mdi:keyboard-esc$$
-  - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:pan-down$$
-  - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:pan-up$$
-  - '%'
+  - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
+  - $$mdi:pan-down$$
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
   - {t: '$$mdi:transfer$$', type: trans}
   - AC BACK
@@ -112,7 +112,7 @@ layers:
   - AC FORWARD
   - $$mdi:skip-next$$
   - $$mdi:volume-high$$
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:apple-keyboard-caps$$
   - $$mdi:pan-left$$
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
@@ -128,17 +128,17 @@ layers:
   - $$mdi:play-pause$$
   - $$mdi:volume-off$$
   - {t: '$$mdi:transfer$$', type: trans}
-  - OUT USB
-  - OUT BLE
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - {t: '$$mdi:transfer$$', type: trans}
-  - +
-  - '{'
-  - '}'
+  - '&DecreaseMouseSpeed'
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - '&IncreaseMouseSpeed'
   - $$mdi:skip-previous$$
   - $$mdi:volume-low$$
   - $$mdi:mouse-scroll-wheel$$
@@ -152,8 +152,8 @@ layers:
   - {t: '$$mdi:backup-restore$$', type: bootloader}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - OUT USB
+  - OUT BLE
   - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -161,7 +161,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:progress-download$$
-  - '&BLUETOOTH_CLEAR'
+  - {t: '$$mdi:bluetooth-off$$', h: BT CLR ALL}
   - {h: '1', s: '$$mdi:bluetooth-connect$$'}
   - {h: '2', s: '$$mdi:bluetooth-connect$$'}
   - {h: '3', s: '$$mdi:bluetooth-connect$$'}
