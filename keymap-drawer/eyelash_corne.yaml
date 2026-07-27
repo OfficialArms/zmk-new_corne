@@ -1,6 +1,6 @@
 layout: {zmk_keyboard: eyelash_corne}
 layers:
-  Default:
+  Main:
   - $$mdi:keyboard-tab$$
   - Q
   - W
@@ -44,12 +44,12 @@ layers:
   - {t: /, s: '?'}
   - {t: '-', s: _}
   - '&ALT_WINDOWS'
-  - Function
+  - Numbers
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-control$$'}
   - $$mdi:keyboard-space$$
-  - SYMBOL
+  - Movement
   - {t: '$$mdi:backspace$$', type: backspace}
-  Function:
+  Numbers:
   - $$mdi:keyboard-esc$$
   - F1
   - F2
@@ -98,7 +98,7 @@ layers:
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '0', h: ']', s: )}
   - $$mdi:backspace-reverse-outline$$
-  SYMBOL:
+  Movement:
   - $$mdi:keyboard-esc$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:pan-up$$
@@ -147,7 +147,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
-  Fn:
+  System:
   - '&soft_off'
   - {t: '$$mdi:backup-restore$$', type: bootloader}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -201,23 +201,23 @@ combos:
   k: '&soft_off'
 - p: [14, 15, 16]
   k: '&Screenshot'
-  l: [Default]
+  l: [Main]
 - p: [26, 25, 24]
   k: '&Screenshot'
-  l: [Default]
+  l: [Main]
 - p: [23, 24]
   k: HOME
-  l: [SYMBOL]
+  l: [Movement]
 - p: [25, 24]
   k: END
-  l: [SYMBOL]
+  l: [Movement]
 - p: [23, 24, 25]
   k: PgDn
-  l: [SYMBOL]
+  l: [Movement]
 - p: [9, 23, 25]
   k: PgUp
-  l: [SYMBOL]
+  l: [Movement]
 - p: [1, 0]
   k: '&ShiftTab'
 - p: [43, 46]
-  k: Fn
+  k: System
