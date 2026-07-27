@@ -7,7 +7,7 @@ layers:
   - E
   - R
   - T
-  - $$mdi:arrow-up-bold$$
+  - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
   - Y
   - U
   - I
@@ -20,9 +20,9 @@ layers:
   - D
   - F
   - G
-  - $$mdi:arrow-left-bold$$
-  - {t: '$$mdi:keyboard-return$$', type: enter}
-  - $$mdi:arrow-right-bold$$
+  - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
+  - $$mdi:mouse-left-click-outline$$
+  - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
   - H
   - J
   - K
@@ -36,7 +36,7 @@ layers:
   - V
   - B
   - $$mdi:volume-off$$
-  - $$mdi:arrow-down-bold$$
+  - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - N
   - M
   - {t: ',', s: <}
@@ -47,7 +47,7 @@ layers:
   - Numbers
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-control$$'}
   - $$mdi:keyboard-space$$
-  - Movement
+  - Move
   - {t: '$$mdi:backspace$$', type: backspace}
   Numbers:
   - $$mdi:keyboard-esc$$
@@ -98,7 +98,7 @@ layers:
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '0', h: ']', s: )}
   - $$mdi:backspace-reverse-outline$$
-  Movement:
+  Move:
   - $$mdi:keyboard-esc$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:pan-up$$
@@ -176,11 +176,11 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - '&bl BL_OFF'
-  - '&bl BL_ON'
-  - '&bl BL_DEC'
-  - '&bl BL_INC'
+  - RGB TOG
+  - RGB BRD
+  - RGB BRI
+  - RGB EFR
+  - RGB EFF
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:volume-off$$
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
@@ -205,17 +205,18 @@ combos:
   l: [Main]
 - p: [23, 24]
   k: HOME
-  l: [Movement]
+  l: [Move]
 - p: [25, 24]
   k: END
-  l: [Movement]
+  l: [Move]
 - p: [23, 24, 25]
   k: PgDn
-  l: [Movement]
+  l: [Move]
 - p: [9, 23, 25]
   k: PgUp
-  l: [Movement]
+  l: [Move]
 - p: [1, 0]
   k: '&ShiftTab'
+  l: [Main]
 - p: [43, 46]
   k: System
