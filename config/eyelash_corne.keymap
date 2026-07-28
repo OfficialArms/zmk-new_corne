@@ -169,7 +169,7 @@
 &kp ESCAPE  &none           &msc SCRL_UP    &mmv MOVE_UP    &msc SCRL_DOWN   &none                                      &mmv MOVE_UP                     &trans  &kp C_AC_BACK        &kp UP_ARROW  &kp C_AC_FORWARD     &kp C_NEXT  &kp C_VOLUME_UP
 &trans      &msc SCRL_LEFT  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &msc SCRL_RIGHT            &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &trans  &kp LEFT             &kp DOWN      &kp RIGHT            &kp C_PP    &kp C_MUTE
 &trans      &trans          &trans          &none           &none            &none            &trans                    &mmv MOVE_DOWN                   &trans  &DecreaseMouseSpeed  &none         &IncreaseMouseSpeed  &kp C_PREV  &kp C_VOLUME_DOWN
-                                            &mkp MCLK       &mkp RCLK        &mkp LCLK                                                                   &trans  &trans               &trans
+                                            &mkp MCLK       &mkp RCLK        &mkp LCLK                                                                   &trans  &trans               &kp DEL
             >;
 
             sensor-bindings =
@@ -180,13 +180,35 @@
         System {
             display-name = "System";
             bindings = <
-&soft_off        &sys_reset       &none            &none            &out OUT_USB     &out OUT_BLE                                &mmv MOVE_UP                     &none   &none   &none   &none  &none  &bootloader
+&soft_off        &sys_reset       &none            &none            &out OUT_USB     &out OUT_BLE                                &mmv MOVE_UP                     &tog 0  &tog 4  &none   &none  &none  &bootloader
 &bt BT_CLR       &bt BT_SEL 0     &bt BT_SEL 1     &bt BT_SEL 2     &bt BT_SEL 3     &bt BT_SEL 4                &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &none   &none   &none   &none  &none  &none
 &rgb_ug RGB_TOG  &rgb_ug RGB_BRD  &rgb_ug RGB_BRI  &rgb_ug RGB_EFR  &rgb_ug RGB_EFF  &none         &kp C_MUTE                    &mmv MOVE_DOWN                   &none   &none   &none   &none  &none  &none
                                                    &trans           &trans           &trans                                                                       &trans  &trans  &trans
             >;
 
             sensor-bindings = <&rsr_vol &rsr_trans>;
+        };
+
+        GameMain {
+            bindings = <
+&kp TAB    &kp Q  &kp W  &kp E     &kp R  &kp T                                    &mmv MOVE_UP                     &kp Y      &kp U   &kp I      &kp O    &kp P     &kp EQUAL
+&kp LCTRL  &kp A  &kp S  &kp D     &kp F  &kp G                    &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp H      &kp J   &kp K      &kp L    &kp SEMI  &kp SQT
+&kp LSHFT  &kp Z  &kp X  &kp C     &kp V  &kp B      &kp K_MUTE                    &mmv MOVE_DOWN                   &kp N      &kp M   &kp COMMA  &kp DOT  &kp FSLH  &kp MINUS
+                         &kp LALT  &mo 5  &kp SPACE                                                                 &kp SPACE  &trans  &kp BSPC
+            >;
+
+            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
+        };
+
+        GameNum {
+            bindings = <
+&kp ESC    &kp N1  &kp N2  &kp N3  &kp N4  &kp N5                                &mmv MOVE_UP                     &kp F1   &kp F2   &kp F3   &kp F4  &kp F5   &trans
+&kp LCTRL  &kp N6  &kp N7  &kp N8  &kp N9  &kp N0                &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp F6   &kp F7   &kp F8   &kp F9  &kp F10  &trans
+&kp LSHFT  &trans  &trans  &trans  &trans  &trans  &kp K_MUTE                    &mmv MOVE_DOWN                   &kp F11  &kp F12  &trans   &trans  &trans   &trans
+                           &trans  &trans  &trans                                                                 &trans   &trans   &kp DEL
+            >;
+
+            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
         };
     };
 };
