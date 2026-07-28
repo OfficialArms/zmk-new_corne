@@ -239,7 +239,7 @@ layers:
   - {t: ., s: '>'}
   - {t: /, s: '?'}
   - {t: '-', s: _}
-  - $$mdi:apple-keyboard-option$$
+  - '&ALT_WINDOWS'
   - G-Num
   - $$mdi:keyboard-space$$
   - $$mdi:keyboard-space$$
