@@ -156,7 +156,7 @@ layers:
   - OUT BLE
   - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
   - {t: Main, h: toggle}
-  - {t: GameMain, h: toggle}
+  - {t: G-Main, h: toggle}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -196,7 +196,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
-  GameMain:
+  G-Main:
   - $$mdi:keyboard-tab$$
   - Q
   - W
@@ -231,7 +231,7 @@ layers:
   - C
   - V
   - B
-  - MUTE
+  - $$mdi:volume-off$$
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - N
   - M
@@ -240,12 +240,12 @@ layers:
   - {t: /, s: '?'}
   - {t: '-', s: _}
   - $$mdi:apple-keyboard-option$$
-  - GameNum
+  - G-Num
   - $$mdi:keyboard-space$$
   - $$mdi:keyboard-space$$
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: Main, h: toggle}
   - {t: '$$mdi:backspace$$', type: backspace}
-  GameNum:
+  G-Num:
   - $$mdi:keyboard-esc$$
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
@@ -280,7 +280,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - MUTE
+  - $$mdi:volume-off$$
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - F11
   - F12
@@ -291,7 +291,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:backspace-reverse-outline$$
 combos:
@@ -318,4 +318,4 @@ combos:
   l: [Main]
 - p: [43, 46]
   k: System
-  l: [Main, GameMain]
+  l: [Main]
