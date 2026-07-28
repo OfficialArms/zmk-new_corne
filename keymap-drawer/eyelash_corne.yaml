@@ -29,7 +29,7 @@ layers:
   - L
   - {t: ;, s: ':'}
   - {t: '''', s: '"'}
-  - $$mdi:apple-keyboard-shift$$
+  - '&SHIFT_CAPS'
   - Z
   - X
   - C
@@ -63,7 +63,7 @@ layers:
   - {t: '9', h: '[', s: (}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:apple-keyboard-caps$$
+  - {t: '$$mdi:transfer$$', type: trans}
   - F6
   - F7
   - F8
@@ -112,7 +112,7 @@ layers:
   - AC FORWARD
   - $$mdi:skip-next$$
   - $$mdi:volume-high$$
-  - $$mdi:apple-keyboard-caps$$
+  - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:pan-left$$
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
