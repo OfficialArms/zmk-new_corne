@@ -5,7 +5,8 @@
 
 **该键盘与 [foostan's Corne](https://github.com/foostan/crkbd) 不同，无法与标准的 `corne` 固件兼容。**
 
-![睫毛外设 Corne 的照片](https://ae01.alicdn.com/kf/Sa797fee25edd44248fbfdb0e13d44e00B.jpg)
+![睫毛外设 Corne 的照片]<img width="1280" height="720" alt="image" src="https://github.com/user-attachments/assets/a74f274f-c941-4bc4-968a-809937815fd5" />
+
 
 -2026/6/22 键盘支持DYA STUDIO改键了中文用户联系店主索取中文版DYA STUDIO安装包。这个上位机软件改键比ZMK studio更好用。
 
