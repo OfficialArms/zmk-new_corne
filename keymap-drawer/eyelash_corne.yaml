@@ -156,7 +156,7 @@ layers:
   - OUT BLE
   - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
   - {t: Main, h: toggle}
-  - {t: G-Main, h: toggle}
+  - {t: G_Main, h: toggle}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -196,7 +196,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
-  G-Main:
+  G_Main:
   - $$mdi:keyboard-tab$$
   - Q
   - W
@@ -240,12 +240,12 @@ layers:
   - {t: /, s: '?'}
   - {t: '-', s: _}
   - '&ALT_WINDOWS'
-  - G-Num
+  - G_Num
   - $$mdi:keyboard-space$$
   - $$mdi:keyboard-space$$
   - {t: Main, h: toggle}
   - {t: '$$mdi:backspace$$', type: backspace}
-  G-Num:
+  G_Num:
   - $$mdi:keyboard-esc$$
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
