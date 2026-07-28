@@ -225,7 +225,7 @@ layers:
   - L
   - {t: ;, s: ':'}
   - {t: '''', s: '"'}
-  - $$mdi:apple-keyboard-shift$$
+  - '&SHIFT_CAPS'
   - Z
   - X
   - C
