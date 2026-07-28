@@ -1323,9 +1323,7 @@ rect.held, rect.combo.held {
 <g transform="translate(308, 153)" class="key keypos-33">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<a href="#G_Main">
-<text x="0" y="-4" class="key tap layer-activator">G_Main</text>
-</a><text x="0" y="24" class="key hold">toggle</text>
+<text x="0" y="-4" class="key tap"><tspan style="font-size: 60%">&amp;GamingTo…</tspan></text>
 </g>
 <g transform="translate(378, 153)" class="key keypos-34">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
@@ -1646,9 +1644,7 @@ rect.held, rect.combo.held {
 <g transform="translate(695, 209) rotate(-12.0)" class="key keypos-46">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<a href="#G_Main">
-<text x="0" y="-4" class="key tap layer-activator">G_Main</text>
-</a><text x="0" y="24" class="key hold">toggle</text>
+<text x="0" y="-4" class="key tap"><tspan style="font-size: 60%">&amp;GamingTo…</tspan></text>
 </g>
 <g transform="translate(756, 203)" class="key backspace keypos-47">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key backspace side"/>
@@ -1671,6 +1667,13 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="42" y="36" width="28" height="26" class="combo"/>
 <text x="56" y="49" class="combo tap"><tspan style="font-size: 67%">&amp;ShiftTab</tspan></text>
 </g>
+<g class="combo combopos-3">
+<path d="M490,209 l-186,0" class="combo"/>
+<path d="M490,209 l186,0" class="combo"/>
+<rect rx="6" ry="6" x="476" y="196" width="28" height="26" class="combo"/>
+<a href="#System">
+<text x="490" y="209" class="combo tap layer-activator">System</text>
+</a></g>
 </g>
 </g>
 <g transform="translate(40, 1592)" class="layer-G_Num">

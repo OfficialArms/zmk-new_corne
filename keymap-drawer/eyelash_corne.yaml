@@ -181,7 +181,7 @@ layers:
   - RGB BRI
   - RGB EFR
   - RGB EFF
-  - {t: G_Main, h: toggle}
+  - '&GamingTogAndRGB'
   - $$mdi:volume-off$$
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -243,7 +243,7 @@ layers:
   - G_Num
   - $$mdi:keyboard-space$$
   - $$mdi:keyboard-space$$
-  - {t: G_Main, h: toggle}
+  - '&GamingTogAndRGB'
   - {t: '$$mdi:backspace$$', type: backspace}
   G_Num:
   - $$mdi:keyboard-esc$$
@@ -367,4 +367,4 @@ combos:
   l: [Main, G_Main]
 - p: [43, 46]
   k: System
-  l: [Main]
+  l: [Main, G_Main]
