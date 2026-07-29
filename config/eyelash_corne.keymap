@@ -139,13 +139,6 @@
             bindings = <&rgb_ug RGB_TOG &tog 3>;
             label = "GAMINGTOGANDRGB";
         };
-
-        RGB_TEST: RGB_TEST {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&rgb_ug RGB_TOG>;
-            label = "RGB_TEST";
-        };
     };
 
     keymap {
@@ -219,10 +212,10 @@
         System {
             display-name = "System";
             bindings = <
-&soft_off        &sys_reset       &none            &none            &out OUT_USB     &out OUT_BLE                                    &mmv MOVE_UP                     &RGB_TEST  &none   &none   &none  &none  &bootloader
-&bt BT_CLR       &bt BT_SEL 0     &bt BT_SEL 1     &bt BT_SEL 2     &bt BT_SEL 3     &bt BT_SEL 4                    &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &none      &none   &none   &none  &none  &none
-&rgb_ug RGB_TOG  &rgb_ug RGB_BRD  &rgb_ug RGB_BRI  &rgb_ug RGB_EFR  &rgb_ug RGB_EFF  &GamingTogAndRGB  &kp C_MUTE                    &mmv MOVE_DOWN                   &none      &none   &none   &none  &none  &none
-                                                   &trans           &trans           &trans                                                                           &trans     &trans  &trans
+&soft_off        &sys_reset       &none            &none            &out OUT_USB     &out OUT_BLE                                    &mmv MOVE_UP                     &none   &none   &none   &none  &none  &bootloader
+&bt BT_CLR       &bt BT_SEL 0     &bt BT_SEL 1     &bt BT_SEL 2     &bt BT_SEL 3     &bt BT_SEL 4                    &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &none   &none   &none   &none  &none  &none
+&rgb_ug RGB_TOG  &rgb_ug RGB_BRD  &rgb_ug RGB_BRI  &rgb_ug RGB_EFR  &rgb_ug RGB_EFF  &GamingTogAndRGB  &kp C_MUTE                    &mmv MOVE_DOWN                   &none   &none   &none   &none  &none  &none
+                                                   &trans           &trans           &trans                                                                           &trans  &trans  &trans
             >;
 
             sensor-bindings = <&rsr_vol &rsr_trans>;
