@@ -136,8 +136,7 @@
         GamingTogAndRGB: GamingTogAndRGB {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&macro_tap>, <&tog 4>, <&macro_tap>, <&rgb_ug RGB_TOG>;
-
+            bindings = <&rgb_ug RGB_TOG &tog 4>;
             label = "GAMINGTOGANDRGB";
         };
     };
