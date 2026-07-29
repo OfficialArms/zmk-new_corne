@@ -253,7 +253,7 @@ layers:
   - OUT USB
   - OUT BLE
   - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
-  - '&RGB_TEST'
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
