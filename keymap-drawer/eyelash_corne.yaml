@@ -318,4 +318,4 @@ combos:
   l: [Main, G_Main]
 - p: [43, 46]
   k: System
-  l: [Main]
+  l: [Main, G_Main]
