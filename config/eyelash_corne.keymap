@@ -97,8 +97,8 @@
             layers = <0 3>;
         };
 
-        Layer-3 {
-            bindings = <&mo 5>;
+        System-Layer {
+            bindings = <&to 5>;
             key-positions = <43 46>;
             layers = <0 3>;
         };
@@ -136,8 +136,7 @@
         GamingTogAndRGB: GamingTogAndRGB {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&rgb_ug RGB_TOG>, <&macro_press>, <&tog 3>;
-
+            bindings = <&rgb_ug RGB_TOG &tog 3>;
             label = "GAMINGTOGANDRGB";
         };
     };
