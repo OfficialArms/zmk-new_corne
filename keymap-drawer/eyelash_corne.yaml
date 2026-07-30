@@ -289,10 +289,10 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
 combos:
 - p: [14, 15, 16]
@@ -317,5 +317,5 @@ combos:
   k: '&ShiftTab'
   l: [Main, G_Main]
 - p: [43, 46]
-  k: {t: System, h: toggle}
-  l: [Main, G_Main]
+  k: System
+  l: [Main]
