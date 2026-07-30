@@ -98,9 +98,9 @@
         };
 
         System-Layer {
-            bindings = <&to 5>;
+            bindings = <&mo 5>;
             key-positions = <43 46>;
-            layers = <0 3>;
+            layers = <0>;
         };
     };
 
