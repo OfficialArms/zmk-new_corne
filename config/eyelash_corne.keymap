@@ -100,7 +100,7 @@
         System-Layer {
             bindings = <&mo 5>;
             key-positions = <43 46>;
-            layers = <0>;
+            layers = <0 3>;
         };
     };
 
