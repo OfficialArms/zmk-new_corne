@@ -136,7 +136,8 @@
         GamingTogAndRGB: GamingTogAndRGB {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&rgb_ug RGB_TOG &tog 3>;
+            bindings = <&rgb_ug RGB_TOG>, <&macro_press>, <&tog 3>;
+
             label = "GAMINGTOGANDRGB";
         };
     };
@@ -218,7 +219,7 @@
                                                    &trans           &trans           &trans                                                                           &trans  &trans  &trans
             >;
 
-            sensor-bindings = <&rsr_vol &rsr_trans>;
+            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>, <&rsr_trans>;
         };
     };
 };
