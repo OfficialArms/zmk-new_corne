@@ -57,6 +57,13 @@
             #binding-cells = <0>;
             bindings = <&kp C_PP>, <&kp C_NEXT>, <&kp C_PREVIOUS>;
         };
+
+        ENCODER_SCROLL: ENCODER_SCROLL {
+            compatible = "zmk,behavior-sensor-rotate";
+            label = "ENCODER_SCROLL";
+            #sensor-binding-cells = <0>;
+            bindings = <&msc SCRL_UP>, <&msc SCRL_DOWN>;
+        };
     };
 
     combos {
@@ -173,9 +180,7 @@
                             &trans  &trans   &trans                                                              &kp ENTER  &TAP_PREF RIGHT_BRACKET N0  &kp DELETE
             >;
 
-            sensor-bindings =
-                <&inc_dec_kp K_SCROLL_UP K_SCROLL_DOWN>,
-                <&rsr_trans>;
+            sensor-bindings = <&ENCODER_SCROLL>, <&rsr_trans>;
         };
 
         Move {
@@ -187,9 +192,7 @@
                                             &mkp MCLK       &mkp RCLK        &mkp LCLK                                                                   &trans  &trans               &kp DEL
             >;
 
-            sensor-bindings =
-                <&inc_dec_kp K_SCROLL_UP K_SCROLL_DOWN>,
-                <&rsr_trans>;
+            sensor-bindings = <&ENCODER_SCROLL>, <&rsr_trans>;
         };
 
         System {
