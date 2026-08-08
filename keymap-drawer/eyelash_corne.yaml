@@ -279,7 +279,7 @@ layers:
   - RGB BRI
   - RGB EFR
   - RGB EFF
-  - '&EnableGamingAndRGB'
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -318,7 +318,7 @@ combos:
   l: [Main, G_Main]
 - p: [43, 46]
   k: System
-  l: [Main, G_Main]
+  l: [Main]
 - p: [14, 2, 16]
   k: '&TogGamingAndRGB'
   l: [Main]
