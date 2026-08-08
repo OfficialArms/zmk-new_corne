@@ -126,6 +126,7 @@
         Reset-To-Main-Layer {
             bindings = <&EnableMainLayerAndDisableRGB>;
             key-positions = <15 16 17>;
+            layers = <3 4>;
         };
     };
 
