@@ -324,3 +324,4 @@ combos:
   l: [Main]
 - p: [15, 16, 17]
   k: '&EnableMainLayerAndDisableRGB'
+  l: [G_Main, G_Num]
