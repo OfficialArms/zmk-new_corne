@@ -243,7 +243,7 @@ layers:
   - G_Num
   - $$mdi:keyboard-space$$
   - $$mdi:keyboard-space$$
-  - '&TogGamingAndRGB'
+  - RGB TOG
   - {t: '$$mdi:backspace$$', type: backspace}
   G_Num:
   - $$mdi:keyboard-esc$$
@@ -292,7 +292,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: held}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - RGB TOG
   - $$mdi:backspace-reverse-outline$$
 combos:
 - p: [14, 15, 16]
@@ -320,7 +320,7 @@ combos:
   k: System
   l: [Main]
 - p: [14, 2, 16]
-  k: '&TogGamingAndRGB'
+  k: '&EnableGamingAndRGB'
   l: [Main]
 - p: [15, 16, 17]
   k: '&EnableMainLayerAndDisableRGB'
