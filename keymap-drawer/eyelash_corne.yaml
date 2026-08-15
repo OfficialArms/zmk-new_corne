@@ -148,9 +148,9 @@ layers:
   - {type: held}
   - $$mdi:backspace-reverse-outline$$
   System:
+  - $$mdi:progress-download$$
   - '&soft_off'
   - {t: '$$mdi:backup-restore$$', type: bootloader}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - OUT USB
   - OUT BLE
