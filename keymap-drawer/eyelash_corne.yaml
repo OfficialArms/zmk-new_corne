@@ -325,3 +325,10 @@ combos:
 - p: [15, 16, 17]
   k: '&EnableMainLayerAndDisableRGB'
   l: [G_Main, G_Num]
+- p: [1, 2]
+  k: F1
+  l: [G_Main, G_Num]
+- p: [14, 15]
+  k: F2
+- p: [29, 30]
+  k: F3
