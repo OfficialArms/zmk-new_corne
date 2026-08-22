@@ -129,18 +129,18 @@
             layers = <4 5>;
         };
 
-        G-F1 {
+        GamingF1 {
             bindings = <&kp F1>;
             key-positions = <1 2>;
             layers = <4 5>;
         };
 
-        G-F2 {
+        GamingF2 {
             bindings = <&kp F2>;
             key-positions = <14 15>;
         };
 
-        G-F3 {
+        GamingF3 {
             bindings = <&kp F3>;
             key-positions = <29 30>;
         };
