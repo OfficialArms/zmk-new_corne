@@ -327,8 +327,10 @@ combos:
   l: [G_Main, G_Num]
 - p: [1, 2]
   k: F1
-  l: [G_Main, G_Num]
+  l: [G_Num]
 - p: [14, 15]
   k: F2
+  l: [G_Num]
 - p: [29, 30]
   k: F3
+  l: [G_Num]
