@@ -152,6 +152,12 @@
             key-positions = <42 43>;
             layers = <0 4>;
         };
+
+        Caps {
+            bindings = <&kp CAPS>;
+            key-positions = <13 28>;
+            layers = <0 1 4 5>;
+        };
     };
 
     macros {
@@ -226,7 +232,7 @@
             bindings = <
 &kp ESCAPE  &kp F1  &kp F2  &kp F3  &kp F4   &kp F5                             &mmv MOVE_UP                     &mkp LCLK  &kp N7                      &kp N8        &TAP_PREF LEFT_BRACKET N9  &trans         &trans
 &trans      &kp F6  &kp F7  &kp F8  &kp F9   &kp F10            &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &mkp RCLK  &kp NUMBER_4                &kp N5        &kp NUMBER_6               &trans         &kp GRAVE
-&kp CAPS    &trans  &trans  &trans  &kp F11  &kp F12  &trans                    &mmv MOVE_DOWN                   &mkp MCLK  &kp NUMBER_1                &kp NUMBER_2  &kp NUMBER_3               &kp BACKSLASH  &trans
+&trans      &trans  &trans  &trans  &kp F11  &kp F12  &trans                    &mmv MOVE_DOWN                   &mkp MCLK  &kp NUMBER_1                &kp NUMBER_2  &kp NUMBER_3               &kp BACKSLASH  &trans
                             &trans  &trans   &trans                                                              &kp ENTER  &TAP_PREF RIGHT_BRACKET N0  &kp DELETE
             >;
 
@@ -271,10 +277,10 @@
 
         G_Num {
             bindings = <
-&kp ESC       &kp N1  &kp N2  &kp N3  &kp N4  &kp N5                            &mmv MOVE_UP                     &kp F1     &kp F2           &kp F3   &kp F4  &kp F5   &none
-&kp LCTRL     &kp N6  &kp N7  &kp N8  &kp N9  &kp N0            &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp F6     &kp F7           &kp F8   &kp F9  &kp F10  &none
-&kp CAPSLOCK  &none   &none   &none   &none   &none   &trans                    &mmv MOVE_DOWN                   &kp F11    &kp F12          &none    &none   &none    &none
-                              &none   &none   &none                                                              &kp ENTER  &rgb_ug RGB_TOG  &kp DEL
+&kp ESC         &kp N1  &kp N2  &kp N3  &kp N4  &kp N5                            &mmv MOVE_UP                     &kp F1     &kp F2           &kp F3   &kp F4  &kp F5   &none
+&kp LCTRL       &kp N6  &kp N7  &kp N8  &kp N9  &kp N0            &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp F6     &kp F7           &kp F8   &kp F9  &kp F10  &none
+&kp LEFT_SHIFT  &none   &none   &none   &none   &none   &trans                    &mmv MOVE_DOWN                   &kp F11    &kp F12          &none    &none   &none    &none
+                                &none   &none   &none                                                              &kp ENTER  &rgb_ug RGB_TOG  &kp DEL
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
