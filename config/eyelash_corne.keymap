@@ -155,7 +155,7 @@
 
         Caps {
             bindings = <&kp CAPS>;
-            key-positions = <13 28>;
+            key-positions = <28 29>;
             layers = <0 1 4 5>;
         };
     };
