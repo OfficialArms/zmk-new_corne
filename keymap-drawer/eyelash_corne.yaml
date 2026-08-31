@@ -315,7 +315,7 @@ combos:
   l: [Move]
 - p: [1, 0]
   k: '&ShiftTab'
-  l: [Main, G_Main]
+  l: [Main, G_Main, Move, Numbers]
 - p: [43, 46]
   k: System
   l: [Main]
