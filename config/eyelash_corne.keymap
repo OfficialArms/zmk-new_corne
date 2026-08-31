@@ -108,7 +108,7 @@
         ShiftTab {
             bindings = <&ShiftTab>;
             key-positions = <1 0>;
-            layers = <0 4>;
+            layers = <0 4 2 1>;
         };
 
         System-Layer {
