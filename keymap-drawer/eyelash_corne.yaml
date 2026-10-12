@@ -339,4 +339,4 @@ combos:
   l: [Main, G_Main]
 - p: [28, 29]
   k: $$mdi:apple-keyboard-caps$$
-  l: [Main, Numbers, G_Main, G_Num]
+  l: [Main, Numbers, G_Num]

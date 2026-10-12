@@ -1713,10 +1713,6 @@ rect.held, rect.combo.held {
 <tspan x="255" dy="-0.6em">LEFT</tspan><tspan x="255" dy="1.2em">WIN</tspan>
 </text>
 </g>
-<g class="combo combopos-5">
-<rect rx="6" ry="6" x="42" y="148" width="28" height="26" class="combo"/>
-<use href="#mdi:apple-keyboard-caps" xlink:href="#mdi:apple-keyboard-caps" x="47" y="152" height="18" width="18.0" class="combo tap glyph mdi:apple-keyboard-caps"/>
-</g>
 </g>
 </g>
 <g transform="translate(40, 1592)" class="layer-G_Num">
