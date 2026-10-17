@@ -297,7 +297,7 @@ layers:
 combos:
 - p: [14, 15, 16]
   k: '&Screenshot'
-  l: [Main, G_Main]
+  l: [Main, G_Num]
 - p: [26, 25, 24]
   k: '&Screenshot'
   l: [Main, G_Main]
